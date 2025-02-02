@@ -1,0 +1,7 @@
+.tail {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  list-style-type: none;
+  width: auto;
+}

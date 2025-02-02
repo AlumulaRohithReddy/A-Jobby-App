@@ -1,0 +1,61 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #272727;
+  width: auto;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.l {
+  color: #2c364c;
+  width: auto;
+}
+@media screen and (max-width: 767px) {
+  .item {
+    width: auto;
+  }
+  .l {
+    width: auto;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.image {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.company {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+.rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.des {
+  font-family: 'Roboto';
+  margin: 10px;
+  font-weight: 400;
+  font-size: 26px;
+  color: #f1f5f9;
+}

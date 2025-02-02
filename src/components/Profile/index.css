@@ -1,0 +1,42 @@
+.pa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+@media (min-width: 575px) and (max-width: 768px) {
+  .profile {
+    width: auto;
+    margin-bottom: 5px;
+  }
+}
+.img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.heading {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 15px;
+  color: #2c364c;
+}

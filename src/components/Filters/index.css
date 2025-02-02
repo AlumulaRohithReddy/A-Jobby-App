@@ -1,0 +1,44 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+}
+.h {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.2;
+}
+.p {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 15px;
+  color: #f1f5f9;
+}
+.line {
+  color: #f1f5f9;
+  width: auto;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.type {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 200px;
+  margin-top: 10px;
+}
+.sal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 200px;
+  margin-top: 10px;
+}
